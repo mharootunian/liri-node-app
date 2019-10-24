@@ -1,7 +1,6 @@
 let Spotify = require("node-spotify-api");
 require("dotenv").config();
 
-
 let spotify = new Spotify({
 	id: process.env.SPOTIFY_ID,
 	secret: process.env.SPOTIFY_SECRET
@@ -9,14 +8,18 @@ let spotify = new Spotify({
 
 let args = process.argv
 
-spotify.search({
-	type: "track",
-	query: "digital bath deftones"
+function findSong(songTitle) {
+	spotify.search({
+		type: "track",
+		query: songTitle
 	},
-	function(err, data) {
-		if (err) 
-			return console.log("Error: " + err);
+		function (err, data) {
+			if (err)
+				return console.log("Error: " + err);
 
-	console.log(data);
-	console.log(data.tracks.items[1]);
-});
+			//console.log(data);
+			console.log(data.tracks.items[0]);
+		});
+}
+
+module.exports = findSong;
