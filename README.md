@@ -15,7 +15,7 @@ For song information:
 
 For movie information:
 `node liri movie-this "Moana"
-<img src="./images/mvoie-this.png"
+<img src="./images/movie-this.png"
      style="float: left; margin-right: 10px;" />
 
 To read a random command from random.txt:
