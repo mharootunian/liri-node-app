@@ -15,9 +15,13 @@ For song information:
 
 For movie information:
 `node liri movie-this "Moana"
+<img src="./images/mvoie-this.png"
+     style="float: left; margin-right: 10px;" />
 
 To read a random command from random.txt:
 `node liri do-what-it-says
+<img src="./images/do-what-it-says.png"
+     style="float: left; margin-right: 10px;" />
 
 ## Reading random command
 The random.txt file contains a command and a parameter per line, formatted [command],[parameter].
