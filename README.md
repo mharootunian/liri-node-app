@@ -2,6 +2,8 @@
 
 LIRI Bot will take in your commands for looking up concerts, songs, and movies and return information about that query. Want to see when your favorite band is in town? Ask LIRI!
 
+The application seperates each api into each own modules. Spotify has its own JS file, as does OMDB, and Bands in Town. The main liri.js file is the entry point and calls the functions belonging to the other modules.
+
 ## How to use
 Run liri.js using node followed by a command and then a parameter.
 

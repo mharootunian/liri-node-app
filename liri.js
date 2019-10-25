@@ -28,10 +28,6 @@ function doTheThing(command, parameter) {
 				OMDB(parameter)
 			if (!parameter)
 				OMDB("Mr. Nobody")
-			break;
-
-		case "do-what-it-says":
-			break;
 
 	}
 }
