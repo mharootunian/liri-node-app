@@ -6,13 +6,15 @@ LIRI Bot will take in your commands for looking up concerts, songs, and movies a
 Run liri.js using node followed by a command and then a parameter.
 
 To check concert information, type:
-`node liri convert-this "Deftones"
+`node liri concert-this "Deftones"
 
 For song information:
-`node liri spotify-this-song "Digital Bath
+`node liri spotify-this-song "Digital Bath"
+<img src="./images/spotify-this-song.png"
+     style="float: left; margin-right: 10px;" />
 
 For movie information:
-`node liri movie-this "Taxi"
+`node liri movie-this "Moana"
 
 To read a random command from random.txt:
 `node liri do-what-it-says
